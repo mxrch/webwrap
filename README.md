@@ -44,10 +44,6 @@ git clone https://github.com/mxrch/webwrap;
 cd webwrap;
 sudo python3 -m pip install -r requirements.txt
 ```
-Then you can either use the python script like this :
-```bash
-python3 webwrap.py
-```
 *(Optional)* You can also install rlwrap :
 ```bash
 sudo apt install rlwrap
