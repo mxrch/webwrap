@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rlwrap python3 /usr/share/webwrap/webwrap.py $1
