@@ -1,7 +1,12 @@
 ![Delicious Wrap](https://files.catbox.moe/86gbaq.png)
 
 # Description
-Webwrap is a simple script that will use your web shell to simulate a terminal, and makes you gain speed.
+Webwrap is a simple script that will use your web shell to simulate a terminal, and makes you gain speed.\
+<br>
+
+<p align=center>
+  <img src=https://files.catbox.moe/t4a1ea.gif />
+</p>
 
 # Features
 
