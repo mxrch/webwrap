@@ -26,7 +26,7 @@ $ webwrap http://<LINK>/my_verycool_webshell.php?cmd=WRAP
 $ rlwrap python3 webwrap.py http://<LINK>/my_verycool_webshell.php?cmd=WRAP
 ```
 - Just remove the `rlwrap` from the command if you didn't install it.
-- On Windows, remove `rlwrap` and replace `python3` by `python`.
+- On Windows, remove `rlwrap` and replace `python3` by `py` or `python`.
 
 # Installation
 
