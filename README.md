@@ -26,7 +26,7 @@ $ webwrap http://<LINK>/my_verycool_webshell.php?cmd=WRAP
 $ rlwrap python3 webwrap.py http://<LINK>/my_verycool_webshell.php?cmd=WRAP
 ```
 - Just remove the `rlwrap` from the command if you didn't install it.
-- On Windows, remove `rlwrap` and replace `python3` by `py` or `python`.
+- On Windows, remove `rlwrap` and replace `python3` by `py`.
 
 # Installation
 
@@ -42,7 +42,7 @@ curl -s https://raw.githubusercontent.com/mxrch/webwrap/master/install.sh | sudo
 ```bash
 git clone https://github.com/mxrch/webwrap;
 cd webwrap;
-sudo python3 -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 *(Optional)* You can also install rlwrap :
 ```bash
@@ -55,7 +55,7 @@ It will give you the ability to reuse your commands through the commands history
 ```cmd
 git clone https://github.com/mxrch/webwrap;
 cd webwrap;
-python -m pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 ****
